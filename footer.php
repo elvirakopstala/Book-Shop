@@ -20,7 +20,6 @@
 
       <div class="box">
          <h3>contact info</h3>
-         <!-- <p> <i class="fas fa-phone"></i></p> <a href="tel:123-456-7890">+123-456-7890</a> -->
          <a href="tel:123-456-7890"> <i class="fas fa-phone"></i>+123-456-7890</a>
          <a href="tel:111-222-3333"> <i class="fas fa-phone"></i>+111-222-3333</a>
          <a href="mailto:book.smart@gmail.com"> <i class="fas fa-envelope"></i>book.smart@gmail.com</a>

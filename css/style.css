@@ -650,7 +650,7 @@ hr {
    background-color: var(--white);
    box-shadow: var(--box-shadow);
    position: relative;
-   border:var(--border);
+
 }
 
 .shopping-cart .box-container .box .fa-times{
@@ -708,7 +708,7 @@ hr {
 .shopping-cart .cart-total{
    max-width: 1200px;
    margin:0 auto;
-   border:var(--border);
+   box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
    padding:2rem;
    text-align: center;
    margin-top: 2rem;
@@ -750,7 +750,7 @@ hr {
    color:var(--black);
    font-size: 2rem;
    padding:1rem 1.5rem;
-   border:var(--border);
+   border-radius: .5rem;
    display: inline-block;
    margin:.5rem;
 }

@@ -13,7 +13,7 @@
 }
 
 *{
-   font-family: 'Rubik', sans-serif;
+   font-family: 'Poppins', sans-serif;
    margin:0; padding:0;
    box-sizing: border-box;
    outline: none; border:none;
@@ -392,7 +392,6 @@ hr {
    box-shadow: var(--box-shadow);
    padding:2rem;
    text-align: center;
-   /* border:var(--border); */
    position: relative;
 }
 
@@ -410,7 +409,6 @@ hr {
    width: 100%;
    padding:1.2rem 1.4rem;
    border-radius: .5rem;
-   /* border:var(--border); */
    margin:1rem 0;
    font-size: 2rem;
 }
@@ -506,7 +504,6 @@ hr {
 .reviews .box-container .box{
    background-color: var(--white);
    box-shadow: var(--box-shadow);
-   /* border:var(--border); */
    border-radius: .5rem;
    text-align: center;
    padding:2rem;
@@ -775,8 +772,7 @@ hr {
 .checkout form{
    max-width: 1200px;
    padding:2rem;
-   margin:0 auto 30px au;
-   /* border:var(--border); */
+   margin:0 auto 30px auto;
    box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
    background-color: var(--light-bg);
    border-radius: .5rem;

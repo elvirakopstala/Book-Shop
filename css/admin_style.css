@@ -3,7 +3,6 @@
 
 :root{
    --purple:#ea7862;
-   /* --red:#ea7862; */
    --orange:#ea9a62;
    --black:rgb(126, 125, 125);
    --white:#fff;
@@ -15,7 +14,7 @@
 }
 
 *{
-   font-family: 'Rubik', sans-serif;
+   font-family: 'Poppins', sans-serif;
    margin:0; padding:0;
    box-sizing: border-box;
    outline: none; border:none;

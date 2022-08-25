@@ -56,7 +56,8 @@ hr {
 .empty{
    padding:1.5rem;
    text-align: center;
-   border:var(--border);
+   box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+   border-radius: 0.5rem;
    background-color: var(--white);
    color:var(--purple);
    font-size: 2rem;

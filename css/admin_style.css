@@ -2,8 +2,8 @@
 
 
 :root{
-   --purple:#ea7862;
-   --orange:#ea9a62;
+   --purple:#AC3017;
+   --orange:#df7325;
    --black:rgb(126, 125, 125);
    --white:#fff;
    --light-color:rgb(165, 164, 164);
@@ -86,7 +86,9 @@ section{
 
 .message span{
    font-size: 2.2rem;
-   color:var(--purple);
+   text-transform: uppercase;
+
+   color:tomato;
 }
 
 .message i{
@@ -116,7 +118,7 @@ section{
 .btn:hover,
 .option-btn:hover,
 .delete-btn:hover{
-   background-color: var(--black);
+   background-color: #e4858a;
 }
 
 .white-btn,

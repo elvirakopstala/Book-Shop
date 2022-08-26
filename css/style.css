@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap');
 
 :root{
-   --purple:#ea7862;
-   --orange:#ea9a62;
+   --purple:#AC3017;
+   --orange:#df7325;
    --black:rgb(126, 125, 125);
    --white:#fff;
    --light-color:rgb(165, 164, 164);
@@ -78,13 +78,14 @@ hr {
 }
 
 .message span{
-   font-size: 2rem;
-   color:var(--black);
+   font-size: 2.2rem;
+   text-transform: uppercase;
+   color: rgb(235, 48, 15);
 }
 
 .message i{
    cursor: pointer;
-   color:var(--purple);
+   color: rgb(235, 48, 15);
    font-size: 2.5rem;
 }
 
@@ -117,7 +118,7 @@ hr {
 .btn:hover,
 .option-btn:hover,
 .delete-btn:hover{
-   background-color: var(--black);
+   background-color: #eb7b64;
 }
 
 .white-btn,
@@ -145,7 +146,6 @@ hr {
    align-items: center;
    justify-content: center;
    gap:1rem;
-   /* background: url(../images/heading-bg.webp) no-repeat; */
    background-color: rgba(238, 235, 230, 0.349);
    background-size: cover;
    background-position: center;
@@ -323,7 +323,7 @@ hr {
    background-color: var(--white);
    border-radius: .5rem;
    box-shadow: var(--box-shadow);
-   border:var(--border);
+
    padding:2rem;
    text-align: center;
    width: 30rem;
@@ -860,7 +860,6 @@ hr {
 .search-form form .box{
    width: 100%;
    padding:1.2rem 1.4rem;
-   border:var(--border);
    font-size: 2rem;
    color:var(--black);
    background-color: var(--light-bg);
